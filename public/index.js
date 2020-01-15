@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         render(actors);
         var x = document.getElementById("actors");
-        x.style.display = "block";
+        x.style.display = "inline-block";
         return;
     });
 })();

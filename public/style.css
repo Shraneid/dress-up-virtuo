@@ -27,3 +27,8 @@ html {
 #actors {
     display: none;
 }
+
+.vert {
+    vertical-align: middle;
+    text-align: center;
+}
