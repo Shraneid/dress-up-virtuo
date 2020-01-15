@@ -1,0 +1,29 @@
+.margtop {
+    margin-top: 100px;
+}
+
+.title {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 400%;
+    font-weight: bold;
+    letter-spacing: -5px;
+    line-height: 1;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.windowsize {
+    min-height: 100vh;
+}
+
+.actor {
+    margin: auto;
+}
+
+#actors {
+    display: none;
+}
