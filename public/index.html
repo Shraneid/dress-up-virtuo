@@ -14,7 +14,9 @@
 
 <body>
     <div class="container windowsize">
-        <h1 class="center title">Car Rental Calculator</h1>
+        <div class="row">
+            <h1 class="center title">Car Rental Calculator</h1>
+        </div>
         <div class="row margtop" id="car">
             <div class="col s4">
                 <input class="js-name" type="text" placeholder="Car name" />
@@ -42,8 +44,10 @@
                 </div>
             </div>
             <div class="row center margtop">
-                <label><input class="js-option " type="checkbox" id="check"/>
-                    <span for="check">Deductible option</span></label>
+                <label>
+                    <input class="js-option " type="checkbox" id="check" />
+                    <span for="check">Deductible option</span>
+                </label>
             </div>
         </div>
 
@@ -58,8 +62,26 @@
         <div class="parallax"><img src="images/parallax1.jpg"></div>
     </div>
 
-    <div class="row container center vert" id="target">
-        <div class="windowsize" id="actors"></div>
+    <div class="container center windowsize vert" id="target">
+        <div class="row s2">
+
+            <div id="priceDIV">
+
+            </div>
+
+            <div class="topMargin">
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header">Credit Repartition</div>
+                        <div class="collapsible-body">
+                            <div id="actors"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
     </div>
 
     <script src="virtuo.js "></script>

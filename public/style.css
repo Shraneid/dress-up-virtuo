@@ -20,15 +20,45 @@ html {
     min-height: 100vh;
 }
 
-.actor {
-    margin: auto;
-}
+.actor {}
 
-#actors {
+#target {
     display: none;
 }
 
 .vert {
     vertical-align: middle;
     text-align: center;
+}
+
+.pricerepartition {
+    color: blue;
+}
+
+#box {
+    border: solid 2px black;
+}
+
+#price {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 400%;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-align: center;
+}
+
+.topPad {
+    padding-top: 10%;
+}
+
+.topMargin {
+    margin-top: 7%;
+}
+
+.priceInfo {
+    color: rgb(56, 56, 56);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 150%;
 }
